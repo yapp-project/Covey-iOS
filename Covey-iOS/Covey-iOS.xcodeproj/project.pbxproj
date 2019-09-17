@@ -37,6 +37,7 @@
 		655333112369DD28000EFC65 /* Career.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6553330D2369DD28000EFC65 /* Career.swift */; };
 		655333122369DD28000EFC65 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6553330E2369DD28000EFC65 /* Post.swift */; };
 		65853637232FD5A70041E959 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 65853636232FD5A70041E959 /* Alamofire */; };
+		659C8351233123B50062D62D /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 659C8350233123B50062D62D /* SDWebImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				659C8351233123B50062D62D /* SDWebImage in Frameworks */,
 				65853637232FD5A70041E959 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +302,7 @@
 			name = "Covey-iOS";
 			packageProductDependencies = (
 				65853636232FD5A70041E959 /* Alamofire */,
+				659C8350233123B50062D62D /* SDWebImage */,
 			);
 			productName = "Covey-iOS";
 			productReference = 65338067232E70A00031C423 /* Covey-iOS.app */;
@@ -331,6 +334,7 @@
 			mainGroup = 6533805E232E70A00031C423;
 			packageReferences = (
 				65853635232FD5A70041E959 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				659C834F233123B50062D62D /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			productRefGroup = 65338068232E70A00031C423 /* Products */;
 			projectDirPath = "";
@@ -588,6 +592,14 @@
 				kind = branch;
 			};
 		};
+		659C834F233123B50062D62D /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.1.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -595,6 +607,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 65853635232FD5A70041E959 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		659C8350233123B50062D62D /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 659C834F233123B50062D62D /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
