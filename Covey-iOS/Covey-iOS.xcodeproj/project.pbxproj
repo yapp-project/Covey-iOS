@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -32,6 +32,7 @@
 		65D2307D233D090400222320 /* SNSLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D2307C233D090400222320 /* SNSLoginButton.swift */; };
 		65E19CDE2349CB6C00C014EE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E19CDD2349CB6C00C014EE /* MainViewController.swift */; };
 		65EC5F59236474300074256A /* CategoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EC5F58236474300074256A /* CategoryButton.swift */; };
+		654AFFFC23327B4100F4C82A /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 654AFFFB23327B4100F4C82A /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				654AFFFC23327B4100F4C82A /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +278,9 @@
 			dependencies = (
 			);
 			name = "Covey-iOS";
+			packageProductDependencies = (
+				654AFFFB23327B4100F4C82A /* RealmSwift */,
+			);
 			productName = "Covey-iOS";
 			productReference = 65338067232E70A00031C423 /* Covey-iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -304,6 +309,9 @@
 				Base,
 			);
 			mainGroup = 6533805E232E70A00031C423;
+			packageReferences = (
+				654AFFFA23327B4100F4C82A /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
 			productRefGroup = 65338068232E70A00031C423 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -544,6 +552,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		654AFFFA23327B4100F4C82A /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = exactVersion;
+				version = 3.18.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		654AFFFB23327B4100F4C82A /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 654AFFFA23327B4100F4C82A /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6533805F232E70A00031C423 /* Project object */;
 }
