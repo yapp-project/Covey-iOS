@@ -16,6 +16,7 @@
 		6513CAB82360AB1F00B44A99 /* NotoSansCJKkr-DemiLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 652C1258235E161800B6255E /* NotoSansCJKkr-DemiLight.otf */; };
 		6513CABB2360AE1D00B44A99 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6513CABA2360AE1D00B44A99 /* FontManager.swift */; };
 		651502FA23421AC100FADDEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651502F923421AC100FADDEF /* Main.storyboard */; };
+		6518C9A92333BA3500D77317 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6518C9A82333BA3500D77317 /* Resource.swift */; };
 		6533806B232E70A00031C423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6533806A232E70A00031C423 /* AppDelegate.swift */; };
 		65338072232E70A10031C423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65338071232E70A10031C423 /* Assets.xcassets */; };
 		65338075232E70A10031C423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65338073232E70A10031C423 /* LaunchScreen.storyboard */; };
@@ -50,6 +51,7 @@
 		6513CABA2360AE1D00B44A99 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
 		651502F923421AC100FADDEF /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		652C1258235E161800B6255E /* NotoSansCJKkr-DemiLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-DemiLight.otf"; sourceTree = "<group>"; };
+		6518C9A82333BA3500D77317 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		65338067232E70A00031C423 /* Covey-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Covey-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6533806A232E70A00031C423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65338071232E70A10031C423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -119,6 +121,14 @@
 				6513CABA2360AE1D00B44A99 /* FontManager.swift */,
 			);
 			path = Module;
+            sourceTree = "<group>";
+        };
+		6518C9A52333B8D000D77317 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6518C9A82333BA3500D77317 /* Resource.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		6533805E232E70A00031C423 = {
@@ -145,6 +155,7 @@
 				657684CF23375CD900316165 /* CustomComponent */,
 				657684CA23375B6200316165 /* View */,
 				6553330A2369DD28000EFC65 /* Model */,
+				6518C9A52333B8D000D77317 /* Network */,
 				6533806A232E70A00031C423 /* AppDelegate.swift */,
 				65338071232E70A10031C423 /* Assets.xcassets */,
 				65338073232E70A10031C423 /* LaunchScreen.storyboard */,
@@ -380,6 +391,8 @@
 				65B897412340FA4100796244 /* RoundTextField.swift in Sources */,
 				65EC5F59236474300074256A /* CategoryButton.swift in Sources */,
 				65B4CF2123643AA3004EE79C /* PTJCollectionViewCell.swift in Sources */,
+				6533806D232E70A00031C423 /* ViewController.swift in Sources */,
+				6518C9A92333BA3500D77317 /* Resource.swift in Sources */,
 				6533806B232E70A00031C423 /* AppDelegate.swift in Sources */,
 				65D2307D233D090400222320 /* SNSLoginButton.swift in Sources */,
 				6513CAAB2360A56E00B44A99 /* UIGradientView.swift in Sources */,
