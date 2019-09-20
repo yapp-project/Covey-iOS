@@ -37,6 +37,7 @@
 		655333102369DD28000EFC65 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6553330C2369DD28000EFC65 /* User.swift */; };
 		655333112369DD28000EFC65 /* Career.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6553330D2369DD28000EFC65 /* Career.swift */; };
 		655333122369DD28000EFC65 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6553330E2369DD28000EFC65 /* Post.swift */; };
+		6535B1D023351C050027FBB1 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6535B1CF23351C050027FBB1 /* APIRouter.swift */; };
 		65853637232FD5A70041E959 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 65853636232FD5A70041E959 /* Alamofire */; };
 		659C8351233123B50062D62D /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 659C8350233123B50062D62D /* SDWebImage */; };
 /* End PBXBuildFile section */
@@ -74,6 +75,7 @@
 		6553330C2369DD28000EFC65 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		6553330D2369DD28000EFC65 /* Career.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Career.swift; sourceTree = "<group>"; };
 		6553330E2369DD28000EFC65 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		6535B1CF23351C050027FBB1 /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				6518C9A82333BA3500D77317 /* Resource.swift */,
+				6535B1CF23351C050027FBB1 /* APIRouter.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -392,6 +395,7 @@
 				65EC5F59236474300074256A /* CategoryButton.swift in Sources */,
 				65B4CF2123643AA3004EE79C /* PTJCollectionViewCell.swift in Sources */,
 				6533806D232E70A00031C423 /* ViewController.swift in Sources */,
+				6535B1D023351C050027FBB1 /* APIRouter.swift in Sources */,
 				6518C9A92333BA3500D77317 /* Resource.swift in Sources */,
 				6533806B232E70A00031C423 /* AppDelegate.swift in Sources */,
 				65D2307D233D090400222320 /* SNSLoginButton.swift in Sources */,
