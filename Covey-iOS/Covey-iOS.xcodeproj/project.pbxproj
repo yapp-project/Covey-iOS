@@ -33,6 +33,8 @@
 		65E19CDE2349CB6C00C014EE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E19CDD2349CB6C00C014EE /* MainViewController.swift */; };
 		65EC5F59236474300074256A /* CategoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EC5F58236474300074256A /* CategoryButton.swift */; };
 		654AFFFC23327B4100F4C82A /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 654AFFFB23327B4100F4C82A /* RealmSwift */; };
+		657684D5233762F900316165 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657684D4233762F900316165 /* User.swift */; };
+		657684D72337637F00316165 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657684D62337637F00316165 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,8 @@
 		65D2307C233D090400222320 /* SNSLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSLoginButton.swift; sourceTree = "<group>"; };
 		65E19CDD2349CB6C00C014EE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		65EC5F58236474300074256A /* CategoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryButton.swift; sourceTree = "<group>"; };
+		657684D4233762F900316165 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		657684D62337637F00316165 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +138,7 @@
 				657684D023375D9F00316165 /* Resource */,
 				657684CF23375CD900316165 /* CustomComponent */,
 				657684CA23375B6200316165 /* View */,
+				657684D3233762E600316165 /* Model */,
 				6533806A232E70A00031C423 /* AppDelegate.swift */,
 				65338071232E70A10031C423 /* Assets.xcassets */,
 				65338073232E70A10031C423 /* LaunchScreen.storyboard */,
@@ -260,7 +265,16 @@
 				65EC5F58236474300074256A /* CategoryButton.swift */,
 			);
 			path = CategoryButton;
-			sourceTree = "<group>";
+            sourceTree = "<group>";
+        };
+		657684D3233762E600316165 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				657684D4233762F900316165 /* User.swift */,
+				657684D62337637F00316165 /* Post.swift */,
+			);
+			path = Model;
+            sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -361,6 +375,8 @@
 				6513CAAB2360A56E00B44A99 /* UIGradientView.swift in Sources */,
 				6513CAAE2360A7FA00B44A99 /* UIBoldLabel.swift in Sources */,
 				65E19CDE2349CB6C00C014EE /* MainViewController.swift in Sources */,
+				657684D5233762F900316165 /* User.swift in Sources */,
+				657684D72337637F00316165 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
