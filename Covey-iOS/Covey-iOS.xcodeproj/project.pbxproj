@@ -15,6 +15,7 @@
 		65626905233A654D00227CDF /* ActiveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65626904233A654D00227CDF /* ActiveButton.swift */; };
 		657684CE23375C8800316165 /* Signup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 657684CD23375C8800316165 /* Signup.storyboard */; };
 		657684D223375DAC00316165 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657684D123375DAC00316165 /* ColorManager.swift */; };
+		65D2307D233D090400222320 /* SNSLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D2307C233D090400222320 /* SNSLoginButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		65626904233A654D00227CDF /* ActiveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveButton.swift; sourceTree = "<group>"; };
 		657684CD23375C8800316165 /* Signup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Signup.storyboard; sourceTree = "<group>"; };
 		657684D123375DAC00316165 /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		65D2307C233D090400222320 /* SNSLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSLoginButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 		657684CF23375CD900316165 /* CustomComponent */ = {
 			isa = PBXGroup;
 			children = (
+				65D2307B233D08F000222320 /* SNSLoginButton */,
 				65626903233A64E100227CDF /* ActiveButton */,
 			);
 			path = CustomComponent;
@@ -119,6 +122,14 @@
 				657684D123375DAC00316165 /* ColorManager.swift */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		65D2307B233D08F000222320 /* SNSLoginButton */ = {
+			isa = PBXGroup;
+			children = (
+				65D2307C233D090400222320 /* SNSLoginButton.swift */,
+			);
+			path = SNSLoginButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +208,7 @@
 				65626905233A654D00227CDF /* ActiveButton.swift in Sources */,
 				6533806D232E70A00031C423 /* ViewController.swift in Sources */,
 				6533806B232E70A00031C423 /* AppDelegate.swift in Sources */,
+				65D2307D233D090400222320 /* SNSLoginButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
