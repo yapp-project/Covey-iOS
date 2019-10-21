@@ -10,17 +10,29 @@ import Foundation
 
 struct User {
     
-    let id: String
+    let id: Int
+    let snsID: String
+    
     let name: String
-    let email: String
+    let gender: String
+    let age: String
+    
+    let address1: String
+    let address2: String
+    
+    let phoneNumber: String
+    let intro: String
+    let image: String
+    
+//    let email: String
     let createdAt: String
     let updatedAt: String
     let deletedAt: String
-    let nickname: String
-    let address: String
-    let univ: String
-    let gender: String
-    let age: Int
-    let career: String
-    let phoneNumber: String
+//    let nickname: String
+//    let univ: String
+//    let career: String
+}
+
+extension User {
+    
 }

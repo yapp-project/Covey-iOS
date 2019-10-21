@@ -9,14 +9,27 @@
 import Foundation
 
 struct Post {
-    let id: String
+    let id: Int
+    let userID: Int
+    
     let title: String
-    let workingDate: String
-    let workingTime: String
-    let pay: String
-    let address: String
-    let userId: String
+    
+    let startDate: String
+    let endDate: String
     let dueDate: String
+    
+    let address1: String
+    let address2: String
+    let address3: String
+    
+    let pay: Int
     let description: String
     let category: String
+    
+    let workingDate: String
+    let workingTime: String
+}
+
+extension Post {
+    
 }
