@@ -15,9 +15,9 @@ class ActiveButton: UIButton {
     var isActive = false {
         didSet {
             if self.isActive {
-                self.backgroundColor = ColorManager.tomato
+                self.backgroundColor = ColorManager.main
             } else {
-                self.backgroundColor = ColorManager.silver
+                self.backgroundColor = ColorManager.buttonActive
             }
         }
     }
@@ -36,7 +36,7 @@ class ActiveButton: UIButton {
     }
     
     private func setBackgroundColor() {
-        self.backgroundColor = ColorManager.silver
+        self.backgroundColor = ColorManager.buttonActive
         
     }
 }
