@@ -3,25 +3,74 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6513CAAB2360A56E00B44A99 /* UIGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6513CAAA2360A56E00B44A99 /* UIGradientView.swift */; };
+		6513CAAE2360A7FA00B44A99 /* UIBoldLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6513CAAD2360A7FA00B44A99 /* UIBoldLabel.swift */; };
+		6513CAB42360AB1F00B44A99 /* NotoSansCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6513CAA62360A10E00B44A99 /* NotoSansCJKkr-Bold.otf */; };
+		6513CAB52360AB1F00B44A99 /* NotoSansCJKkr-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6513CAA52360A10D00B44A99 /* NotoSansCJKkr-Medium.otf */; };
+		6513CAB62360AB1F00B44A99 /* NotoSansCJKkr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6513CAA42360A10A00B44A99 /* NotoSansCJKkr-Regular.otf */; };
+		6513CAB72360AB1F00B44A99 /* Odin Rounded - Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6513CAA72360A2A900B44A99 /* Odin Rounded - Bold.otf */; };
+		6513CAB82360AB1F00B44A99 /* NotoSansCJKkr-DemiLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 652C1258235E161800B6255E /* NotoSansCJKkr-DemiLight.otf */; };
+		6513CABB2360AE1D00B44A99 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6513CABA2360AE1D00B44A99 /* FontManager.swift */; };
+		651502FA23421AC100FADDEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651502F923421AC100FADDEF /* Main.storyboard */; };
+		65093F4C2351CE6700F1EBE2 /* Career.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65093F4B2351CE6700F1EBE2 /* Career.swift */; };
+		65093F4E2351CF2B00F1EBE2 /* Apply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65093F4D2351CF2B00F1EBE2 /* Apply.swift */; };
 		6533806B232E70A00031C423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6533806A232E70A00031C423 /* AppDelegate.swift */; };
-		6533806D232E70A00031C423 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6533806C232E70A00031C423 /* ViewController.swift */; };
-		65338070232E70A00031C423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6533806E232E70A00031C423 /* Main.storyboard */; };
 		65338072232E70A10031C423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65338071232E70A10031C423 /* Assets.xcassets */; };
 		65338075232E70A10031C423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65338073232E70A10031C423 /* LaunchScreen.storyboard */; };
+		65626905233A654D00227CDF /* ActiveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65626904233A654D00227CDF /* ActiveButton.swift */; };
+		657684CE23375C8800316165 /* Signup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 657684CD23375C8800316165 /* Signup.storyboard */; };
+		657684D223375DAC00316165 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657684D123375DAC00316165 /* ColorManager.swift */; };
+		65784BF823450EB000480445 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65784BF723450EB000480445 /* DetailView.xib */; };
+		65B4CF2123643AA3004EE79C /* PTJCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B4CF1F23643AA3004EE79C /* PTJCollectionViewCell.swift */; };
+		65B4CF2223643AA3004EE79C /* PTJCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65B4CF2023643AA3004EE79C /* PTJCollectionViewCell.xib */; };
+		65B4CF2623643D2D004EE79C /* PTJTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B4CF2423643D2D004EE79C /* PTJTableViewCell.swift */; };
+		65B4CF2723643D2D004EE79C /* PTJTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65B4CF2523643D2D004EE79C /* PTJTableViewCell.xib */; };
+		65B897412340FA4100796244 /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B897402340FA4100796244 /* RoundTextField.swift */; };
+		65CF225D233E3E0C00623D10 /* TitleTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CF225C233E3E0C00623D10 /* TitleTextField.swift */; };
+		65D2307D233D090400222320 /* SNSLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D2307C233D090400222320 /* SNSLoginButton.swift */; };
+		65E19CDE2349CB6C00C014EE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E19CDD2349CB6C00C014EE /* MainViewController.swift */; };
+		65EC5F59236474300074256A /* CategoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EC5F58236474300074256A /* CategoryButton.swift */; };
+		654AFFFC23327B4100F4C82A /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 654AFFFB23327B4100F4C82A /* RealmSwift */; };
+		657684D5233762F900316165 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657684D4233762F900316165 /* User.swift */; };
+		657684D72337637F00316165 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657684D62337637F00316165 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6513CAA42360A10A00B44A99 /* NotoSansCJKkr-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Regular.otf"; sourceTree = "<group>"; };
+		6513CAA52360A10D00B44A99 /* NotoSansCJKkr-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Medium.otf"; sourceTree = "<group>"; };
+		6513CAA62360A10E00B44A99 /* NotoSansCJKkr-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Bold.otf"; sourceTree = "<group>"; };
+		6513CAA72360A2A900B44A99 /* Odin Rounded - Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Odin Rounded - Bold.otf"; sourceTree = "<group>"; };
+		6513CAAA2360A56E00B44A99 /* UIGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGradientView.swift; sourceTree = "<group>"; };
+		6513CAAD2360A7FA00B44A99 /* UIBoldLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBoldLabel.swift; sourceTree = "<group>"; };
+		6513CABA2360AE1D00B44A99 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		651502F923421AC100FADDEF /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		652C1258235E161800B6255E /* NotoSansCJKkr-DemiLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-DemiLight.otf"; sourceTree = "<group>"; };
+		65093F4B2351CE6700F1EBE2 /* Career.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Career.swift; sourceTree = "<group>"; };
+		65093F4D2351CF2B00F1EBE2 /* Apply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apply.swift; sourceTree = "<group>"; };
 		65338067232E70A00031C423 /* Covey-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Covey-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6533806A232E70A00031C423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6533806C232E70A00031C423 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6533806F232E70A00031C423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65338071232E70A10031C423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65338074232E70A10031C423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65338076232E70A10031C423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65626904233A654D00227CDF /* ActiveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveButton.swift; sourceTree = "<group>"; };
+		657684CD23375C8800316165 /* Signup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Signup.storyboard; sourceTree = "<group>"; };
+		657684D123375DAC00316165 /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		65784BF723450EB000480445 /* DetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+		65B4CF1F23643AA3004EE79C /* PTJCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTJCollectionViewCell.swift; sourceTree = "<group>"; };
+		65B4CF2023643AA3004EE79C /* PTJCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PTJCollectionViewCell.xib; sourceTree = "<group>"; };
+		65B4CF2423643D2D004EE79C /* PTJTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTJTableViewCell.swift; sourceTree = "<group>"; };
+		65B4CF2523643D2D004EE79C /* PTJTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PTJTableViewCell.xib; sourceTree = "<group>"; };
+		65B897402340FA4100796244 /* RoundTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
+		65CF225C233E3E0C00623D10 /* TitleTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTextField.swift; sourceTree = "<group>"; };
+		65D2307C233D090400222320 /* SNSLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSLoginButton.swift; sourceTree = "<group>"; };
+		65E19CDD2349CB6C00C014EE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		65EC5F58236474300074256A /* CategoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryButton.swift; sourceTree = "<group>"; };
+		657684D4233762F900316165 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		657684D62337637F00316165 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,12 +78,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				654AFFFC23327B4100F4C82A /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6513CAA82360A53800B44A99 /* ExtensionComponent */ = {
+			isa = PBXGroup;
+			children = (
+				65EC5F57236473C90074256A /* CategoryButton */,
+				6513CAAC2360A7DE00B44A99 /* UIBoldLabel */,
+				6513CAA92360A54200B44A99 /* UIGradientView */,
+			);
+			path = ExtensionComponent;
+			sourceTree = "<group>";
+		};
+		6513CAA92360A54200B44A99 /* UIGradientView */ = {
+			isa = PBXGroup;
+			children = (
+				6513CAAA2360A56E00B44A99 /* UIGradientView.swift */,
+			);
+			path = UIGradientView;
+			sourceTree = "<group>";
+		};
+		6513CAAC2360A7DE00B44A99 /* UIBoldLabel */ = {
+			isa = PBXGroup;
+			children = (
+				6513CAAD2360A7FA00B44A99 /* UIBoldLabel.swift */,
+			);
+			path = UIBoldLabel;
+			sourceTree = "<group>";
+		};
+		6513CAB92360AE1500B44A99 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				6513CABA2360AE1D00B44A99 /* FontManager.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
 		6533805E232E70A00031C423 = {
 			isa = PBXGroup;
 			children = (
@@ -54,15 +138,149 @@
 		65338069232E70A00031C423 /* Covey-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				6513CAB92360AE1500B44A99 /* Module */,
+				657684D023375D9F00316165 /* Resource */,
+				657684CF23375CD900316165 /* CustomComponent */,
+				657684CA23375B6200316165 /* View */,
+				657684D3233762E600316165 /* Model */,
 				6533806A232E70A00031C423 /* AppDelegate.swift */,
-				6533806C232E70A00031C423 /* ViewController.swift */,
-				6533806E232E70A00031C423 /* Main.storyboard */,
 				65338071232E70A10031C423 /* Assets.xcassets */,
 				65338073232E70A10031C423 /* LaunchScreen.storyboard */,
 				65338076232E70A10031C423 /* Info.plist */,
 			);
 			path = "Covey-iOS";
 			sourceTree = "<group>";
+		};
+		65626903233A64E100227CDF /* ActiveButton */ = {
+			isa = PBXGroup;
+			children = (
+				65626904233A654D00227CDF /* ActiveButton.swift */,
+			);
+			path = ActiveButton;
+			sourceTree = "<group>";
+		};
+		657684CA23375B6200316165 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				65B4CF2323643D0E004EE79C /* TableViewCell */,
+				65B4CF1E2364397C004EE79C /* CollectionViewCell */,
+				65784BF623450E1E00480445 /* DetailView */,
+				657684CC23375B7000316165 /* Main */,
+				657684CB23375B6900316165 /* Signup */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		657684CB23375B6900316165 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				657684CD23375C8800316165 /* Signup.storyboard */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		657684CC23375B7000316165 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				651502F923421AC100FADDEF /* Main.storyboard */,
+				65E19CDD2349CB6C00C014EE /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		657684CF23375CD900316165 /* CustomComponent */ = {
+			isa = PBXGroup;
+			children = (
+				6513CAA82360A53800B44A99 /* ExtensionComponent */,
+				65B8973F2340FA2900796244 /* RoundTextField */,
+				65CF2259233E3C2100623D10 /* TitleTextField */,
+				65D2307B233D08F000222320 /* SNSLoginButton */,
+				65626903233A64E100227CDF /* ActiveButton */,
+			);
+			path = CustomComponent;
+			sourceTree = "<group>";
+		};
+		657684D023375D9F00316165 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6513CAA62360A10E00B44A99 /* NotoSansCJKkr-Bold.otf */,
+				6513CAA52360A10D00B44A99 /* NotoSansCJKkr-Medium.otf */,
+				6513CAA42360A10A00B44A99 /* NotoSansCJKkr-Regular.otf */,
+				6513CAA72360A2A900B44A99 /* Odin Rounded - Bold.otf */,
+				652C1258235E161800B6255E /* NotoSansCJKkr-DemiLight.otf */,
+				657684D123375DAC00316165 /* ColorManager.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		65784BF623450E1E00480445 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				65784BF723450EB000480445 /* DetailView.xib */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		65B4CF1E2364397C004EE79C /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				65B4CF1F23643AA3004EE79C /* PTJCollectionViewCell.swift */,
+				65B4CF2023643AA3004EE79C /* PTJCollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		65B4CF2323643D0E004EE79C /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				65B4CF2423643D2D004EE79C /* PTJTableViewCell.swift */,
+				65B4CF2523643D2D004EE79C /* PTJTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		65B8973F2340FA2900796244 /* RoundTextField */ = {
+			isa = PBXGroup;
+			children = (
+				65B897402340FA4100796244 /* RoundTextField.swift */,
+			);
+			path = RoundTextField;
+			sourceTree = "<group>";
+		};
+		65CF2259233E3C2100623D10 /* TitleTextField */ = {
+			isa = PBXGroup;
+			children = (
+				65CF225C233E3E0C00623D10 /* TitleTextField.swift */,
+			);
+			path = TitleTextField;
+			sourceTree = "<group>";
+		};
+		65D2307B233D08F000222320 /* SNSLoginButton */ = {
+			isa = PBXGroup;
+			children = (
+				65D2307C233D090400222320 /* SNSLoginButton.swift */,
+			);
+			path = SNSLoginButton;
+			sourceTree = "<group>";
+		};
+		65EC5F57236473C90074256A /* CategoryButton */ = {
+			isa = PBXGroup;
+			children = (
+				65EC5F58236474300074256A /* CategoryButton.swift */,
+			);
+			path = CategoryButton;
+            sourceTree = "<group>";
+        };
+		657684D3233762E600316165 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				657684D4233762F900316165 /* User.swift */,
+				657684D62337637F00316165 /* Post.swift */,
+				65093F4B2351CE6700F1EBE2 /* Career.swift */,
+				65093F4D2351CF2B00F1EBE2 /* Apply.swift */,
+			);
+			path = Model;
+            sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -80,6 +298,9 @@
 			dependencies = (
 			);
 			name = "Covey-iOS";
+			packageProductDependencies = (
+				654AFFFB23327B4100F4C82A /* RealmSwift */,
+			);
 			productName = "Covey-iOS";
 			productReference = 65338067232E70A00031C423 /* Covey-iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -108,6 +329,9 @@
 				Base,
 			);
 			mainGroup = 6533805E232E70A00031C423;
+			packageReferences = (
+				654AFFFA23327B4100F4C82A /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
 			productRefGroup = 65338068232E70A00031C423 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,9 +346,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6513CAB42360AB1F00B44A99 /* NotoSansCJKkr-Bold.otf in Resources */,
+				6513CAB52360AB1F00B44A99 /* NotoSansCJKkr-Medium.otf in Resources */,
+				6513CAB62360AB1F00B44A99 /* NotoSansCJKkr-Regular.otf in Resources */,
+				6513CAB72360AB1F00B44A99 /* Odin Rounded - Bold.otf in Resources */,
+				6513CAB82360AB1F00B44A99 /* NotoSansCJKkr-DemiLight.otf in Resources */,
 				65338075232E70A10031C423 /* LaunchScreen.storyboard in Resources */,
+				651502FA23421AC100FADDEF /* Main.storyboard in Resources */,
 				65338072232E70A10031C423 /* Assets.xcassets in Resources */,
-				65338070232E70A00031C423 /* Main.storyboard in Resources */,
+				65784BF823450EB000480445 /* DetailView.xib in Resources */,
+				65B4CF2223643AA3004EE79C /* PTJCollectionViewCell.xib in Resources */,
+				65B4CF2723643D2D004EE79C /* PTJTableViewCell.xib in Resources */,
+				657684CE23375C8800316165 /* Signup.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +368,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6533806D232E70A00031C423 /* ViewController.swift in Sources */,
+				6513CABB2360AE1D00B44A99 /* FontManager.swift in Sources */,
+				65CF225D233E3E0C00623D10 /* TitleTextField.swift in Sources */,
+				65B4CF2623643D2D004EE79C /* PTJTableViewCell.swift in Sources */,
+				657684D223375DAC00316165 /* ColorManager.swift in Sources */,
+				65626905233A654D00227CDF /* ActiveButton.swift in Sources */,
+				65B897412340FA4100796244 /* RoundTextField.swift in Sources */,
+				65EC5F59236474300074256A /* CategoryButton.swift in Sources */,
+				65B4CF2123643AA3004EE79C /* PTJCollectionViewCell.swift in Sources */,
 				6533806B232E70A00031C423 /* AppDelegate.swift in Sources */,
+				65D2307D233D090400222320 /* SNSLoginButton.swift in Sources */,
+				6513CAAB2360A56E00B44A99 /* UIGradientView.swift in Sources */,
+				6513CAAE2360A7FA00B44A99 /* UIBoldLabel.swift in Sources */,
+				65E19CDE2349CB6C00C014EE /* MainViewController.swift in Sources */,
+                65093F4E2351CF2B00F1EBE2 /* Apply.swift in Sources */,
+				657684D5233762F900316165 /* User.swift in Sources */,
+				657684D72337637F00316165 /* Post.swift in Sources */,
+				65093F4C2351CE6700F1EBE2 /* Career.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6533806E232E70A00031C423 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6533806F232E70A00031C423 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		65338073232E70A10031C423 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -336,6 +576,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		654AFFFA23327B4100F4C82A /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = exactVersion;
+				version = 3.18.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		654AFFFB23327B4100F4C82A /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 654AFFFA23327B4100F4C82A /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6533805F232E70A00031C423 /* Project object */;
 }
